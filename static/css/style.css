@@ -24,7 +24,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  min-height: 100px;
+  min-height: 50px;
   background: #4e5d6c;
 }
 
@@ -35,7 +35,7 @@ body {
   bottom: 0;
   left: 0;
   padding: 5px;
-  background: #1b3146;
+  background: #10263b;
 }
 
 .navbar {
@@ -49,10 +49,10 @@ body {
   bottom: 5px;
   left: 150px;
   width: 35px;
-  color: white;
+  color: rgb(15, 111, 96);
 }
 
-/* Adding styles to the aside and filter form */
+/* Adding styles to the side and filter form */
 .ufo-form {
   margin-top: 50px;
 }
@@ -138,7 +138,7 @@ select {
   color: #8e979f;
 }
 
-/* media queries which will only be activated at specific screen sizes */
+/* media queries activated at specific screen sizes */
 @media (max-width: 800px) {
   #table-area td {
     font-size: 1em;
@@ -166,7 +166,7 @@ select {
     height: 1px;
     margin-top: 20px;
     content: " ";
-    background: aliceblue;
+    background: rgb(138, 157, 173);
   }
 
   #table-area td {
